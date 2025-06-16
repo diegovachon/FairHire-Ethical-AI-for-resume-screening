@@ -2,21 +2,12 @@ FairHire – Responsible AI for Resume Screening
 
 FairHire is a full-stack resume screening system designed to promote privacy, fairness, and transparency in AI-powered hiring. It integrates PII redaction, machine learning–based evaluation, and real-time bias auditing into a unified, auditable workflow.
 
-Project Highlights
+What does FairHire do?
 
-- PII Redaction – Automatically detects and removes personally identifiable information (e.g., names, emails, phone numbers) before analysis.
-- ML-Based Ranking – Scores resumes using a trained model based on experience, skills, and relevance.
-- Bias Auditing – Evaluates whether scores are disproportionately low for specific demographic groups (e.g., gender or ethnicity).
-- Explainability – Provides transparent justifications for each score to support accountability.
-- Purpose Limitation – Logs access and enforces responsible data usage policies.
+Firstly, it automatically detects and removes personally identifiable information (e.g., names, emails, phone numbers) before analysis. Secondly, it scores resumes using a trained model based on experience, skills, and relevance. Thirdly, it evaluates whether scores are disproportionately low for specific demographic groups (e.g., gender or ethnicity). Fourthly, it provides transparent justifications for each score to support accountability. Finally, it logs access and enforces responsible data usage policies.
 
 Tech Stack
-| Layer          | Technologies 
-| Backend        | Python, FastAPI, Pydantic, Uvicorn 
-| Frontend       | React, Axios 
-| ML**           | Scikit-learn (Logistic Regression), Fairlearn (Bias Audit), Pandas 
-| Security & PII | Regex, Custom Redaction Logic 
-| Deployment     | Docker 
+For backend, it uses Python, FastAPI, Pydantic and Uvicorn. For frontend, it uses React and Axios. For the machine learning, it uses Scikit-learn (Logistic Regression), Fairlearn (Bias Audit) and Pandas. For Security and PII, it uses Regex and Custom Redaction Logic. For the deployment, it uses Docker.
 
 Sample Workflow
 
@@ -42,13 +33,9 @@ Evaluation Metrics
 
 Why This Matters
 
-FairHire demonstrates how to:
-- Build ethical AI systems with fairness and accountability in mind
-- Apply privacy-by-design principles in real-world workflows
-- Integrate machine learning and governance into usable tools
-- Work across disciplines: data science, ethics, policy, and UX
+FairHire demonstrates how to build ethical AI systems with fairness and accountability in mind, then apply privacy-by-design principles in real-world workflows, also integrate machine learning and governance into usable tools, and finally it shows how to work across disciplines such as data science, ethics, policy, and UX.
 
-Getting Started
+Usage
 
 1. Backend (FastAPI)
 
